@@ -1,0 +1,5 @@
+# This docker was being used because I own a mac os with apple silicon and I was having problems with Angular.
+# With this I can build the app localy and just copy the static files
+
+FROM nginx:1.25-alpine
+COPY www /usr/share/nginx/html
